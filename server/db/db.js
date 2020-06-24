@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = "your_mongodb_url_here";
+const db = "mongodb+srv://admin:<admin123>@cluster0-odend.mongodb.net/<dbname>?retryWrites=true&w=majority";
 
 const connectDB = async () => {
   try {
